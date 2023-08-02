@@ -1,0 +1,35 @@
+public class Main {
+	static int greatest(int a , int b){
+		if(a > b){
+			return a;
+			}
+		else{
+			return b;
+			}
+		}
+		
+	static double greatest(double x , double y){
+		if(x > y){
+			return x;
+			}
+			else{
+				return y;
+				}
+		}
+	public static void main(String[] args) {
+		int a = 100;
+		int b = 200;
+		
+		System.out.println(greatest(a , b)+" is Greatest");
+		
+		
+		double x = 100.55;
+		double y  = 455.45;
+		System.out.println(greatest(x , y)+" is Greatest");
+		
+		System.out.println(greatest(44 , 66));
+		
+	      System.out.println(greatest(44.55 , 66.77));
+		
+	}
+}
